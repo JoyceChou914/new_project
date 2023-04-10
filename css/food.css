@@ -1,0 +1,221 @@
+body{
+    font-family: 'Klee One','Noto Sans TC', sans-serif;
+}
+
+.wrapper{
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    /* background-position:center; */
+    z-index: 1;
+    position: relative;
+    font-family: 'Klee One','Noto Sans TC', sans-serif;
+}
+
+
+/*---------藝人介紹-------------------------------*/
+
+.top{
+    margin: 0 auto;
+
+}
+
+.zero img{
+    display: block;
+    width: 85px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+
+}
+
+.zero{
+    margin: 30px;
+    width: 50%;
+}
+
+.zero p{
+    line-height: 2;
+}
+
+.zero h1{
+    text-align: end;
+    letter-spacing:  3px;
+}
+
+
+.salsa{
+    width: 50%;
+}
+
+.salsa img{
+    display: block;
+    width:85px;
+    margin-bottom:20px;
+    border-radius: 50%;
+}
+
+.salsa p{
+    line-height: 2;
+}
+
+
+.salsa h1{
+    text-align: end;
+    letter-spacing:  3px;
+}
+
+/*------------汐止必吃top10--------------------------------*/
+
+.xizhi h1{   
+    height: 150px;
+    text-align:center;
+    padding-top: 50px;
+    font-size: 30px;
+    color: black;
+    position: relative;
+    z-index: -1200;
+
+}
+
+
+
+
+.xizhi h1::before {
+    content:"";
+    background-image:url(../img/food/background.jpg);
+    opacity: 40%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -200;
+}
+
+.xizhi h1::after{
+    content:"";
+    background-color: #EA839B;
+    position: absolute;
+    width: 100%;
+    height: 37%;
+    z-index: -200;
+    right: 1px;
+    bottom: 0px;
+    top:48px;
+    opacity: 55%;
+}
+
+
+/*------------阿義炸雞--------------------------------*/
+
+.chicken{
+    display: flex;
+}
+
+
+
+.chicken li{
+    display:flex;
+    margin: 50px;
+}
+
+
+
+.chicken img{
+    display: block;
+    width: 410px;
+    border-radius: 40px;
+    box-shadow: 3px 3px 12px grey;
+    padding: 3px;
+
+    overflow: hidden;
+    transform: scale(1,1);
+    transition: all 1s ease-out;
+
+}
+
+.chicken img:hover{
+    transform: scale(1.2,1.2);
+}
+
+
+
+.food{
+    padding: 50px
+}
+
+
+.left{
+    /* display: flex; */
+    /* flex-basis: 0;
+    flex-grow: 1; */
+    vertical-align: center;
+    /* text-align: center; */
+    flex-grow: 1;
+}
+
+
+
+.left h1{
+    font-size: 25px;
+    color: #4568A8;
+    flex-shrink: 1;
+    text-align: center;
+    background-color: #EA839B;
+    width: 300px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    /* border-left: 5px solid #000; */
+    width: 200px;
+    text-align: center;
+    /* border-radius: 10% 10% 10% 10%; */
+
+
+    
+
+
+    
+    /* line-height: 1.5px;
+    font-size: 30px;
+    background-image: linear-gradient(#9CDB95,#CEF9AA);
+    padding:20px;
+    width: 200px;
+    text-align: center;
+    color: black;
+    margin: 10px 0; */
+
+}
+
+
+.left p{
+    /* text-align: center; */
+    vertical-align: middle;
+    /* padding: 30%; */
+    padding: 50px;
+    line-height: 2;
+    text-align: center;
+}
+
+
+
+.ice{
+    display: flex;
+}
+
+.chicken02{
+    display: block;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

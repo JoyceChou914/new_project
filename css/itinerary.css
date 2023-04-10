@@ -1,0 +1,365 @@
+body{
+    font-family: 'Klee One';
+}
+
+.Wrapper{
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position:center;
+    font-family: 'Klee One','Noto Sans TC', sans-serif;
+}
+
+/*-------------step1 新山夢湖---------------*/
+
+.lake{
+    display:flex;
+    margin-top: 100px;
+    margin-left: 20px;
+
+}
+.lakeimg{
+    background-image: url(../img/itinerary/lake.jpg);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-position: center center;
+}
+
+/* .lake img{
+    
+    display: block;
+    width: 150px;
+
+    margin: 50px;
+    border-radius:20px;
+    flex-grow: 1;
+    flex-basis: 30px;
+} */
+
+.newlake{
+    flex-basis: 0px;
+    flex-grow: 1;
+    flex-basis: 30px;
+    align-self: center;
+    line-height: 3;
+    width: 200px;
+    padding: 30px;
+
+}
+
+.newlake h1{
+    font-size: 30px;
+    color: #2B4069;
+
+
+}
+
+.togoone{
+    margin: 0 200px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.togoone img{
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*---------step2 阿亮水餃-------------*/
+.dumplings{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+/* .newdumplings{
+        flex-basis: 30px; 
+        background-image: url(../img/itinerary/dumplings.jpg);
+        width: 400px;
+        height: 500px;
+        /* border-radius: 50%; */
+        /* background-position: center center; */
+
+
+.dumplingsimg{
+    background-image: url(../img/itinerary/dumplings.jpg);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-position: center center;
+}
+
+
+
+/* .lakeimg{
+    background-image: url(../img/itinerary/lake.jpg);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-position: center center;
+} */
+
+
+
+
+
+.newdumplings{
+    /* flex-basis: 30px;
+    flex-grow: 1;
+    flex-basis: 30px;
+    align-self: center;
+    line-height: 1.8;
+    width: 200px; */
+
+    flex-basis: 0px;
+    flex-grow: 1;
+    flex-basis: 30px;
+    align-self: center;
+    line-height: 3;
+    width: 200px;
+    padding: 30px;  
+}
+
+
+
+.newdumplings h1{
+    font-size: 30px;
+    color: #2B4069;
+    line-height: 3;
+    /* text-align: center;   */
+}
+
+
+.togotwo img{
+    margin: 0 900px;
+    display: block;
+    text-align: center;
+}
+
+.togotwo{
+    margin: 0 auto;
+    text-align: center;
+    /* border: 1px solid red;   */
+}
+
+
+.span{
+    margin-block-end: auto;
+    margin-right:-28px;
+    font-size: 43px;
+}
+/*---------------step3 五堵鐵馬道-------------------------*/
+
+.ridebike{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.ridebikeimg{
+    background-image: url(../img/itinerary/ridebike.jpg);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-position: center center;
+}
+
+.newridebike{
+    flex-basis: 30px;
+    flex-grow: 1;
+    line-height: 3;
+    align-self: center;
+    /* line-height: 3; */
+    width:200px;
+    padding: 30px;
+}
+
+
+.newridebike h1{
+    font-size: 30px;
+    color: #2B4069;
+
+}
+
+
+.togothree{
+    margin: 0 20px;
+    display: block;
+    text-align: center;
+}
+
+
+.togothree img{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.span{
+    margin-block-end: auto;
+    margin-right: 642px;
+    font-size: 43px;
+}
+
+/*---------------step4 功夫大帝-------------------------*/
+.effort{
+    display: flex;
+    /* border: 1px solid red; */
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.effortimg{
+    /* display: block;
+    width: 150px;
+    margin: 50px;
+    border-radius:20px;
+    flex-grow: 1;
+    flex-basis: 30px; */
+
+    background-image: url(../img/itinerary/effort.jpg);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-position: center center;
+
+
+
+}
+
+.neweffort {
+        display: block;
+        width: 200px;
+        margin: 50px;
+        border-radius:20px;
+        flex-grow: 1;
+        flex-basis: 30px;
+        line-height: 3;
+        align-self: center;
+
+}
+
+.neweffort h1{
+    font-size: 30px;
+    color: #2B4069;
+
+}
+
+
+.togofour{
+    margin: 0 auto;
+    display: block;
+    /* padding: 0; */
+    text-align: center;
+}
+
+.togofour img{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+
+.span{
+    margin-block-end: auto;
+    margin-right: 642px;
+    font-size: 43px;
+}
+
+
+/*-----step5 少爺時尚旅館------------------------------*/
+
+
+.hotel{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+
+.hotelimg{
+    background-image: url(../img/itinerary/hotel.jpg);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-position: center center;
+
+
+
+    /* display: block;
+    width: 500px;
+    margin: 50px;
+    border-radius:20px;
+    flex-grow: 1;
+    flex-basis: 30px; */
+}
+
+
+
+
+.newhotel{
+    display: block;
+    width: 150px;
+    margin: 50px;
+    border-radius:20px;
+    flex-grow: 1;
+    flex-basis: 30px;
+    line-height: 3;
+    align-self: center;
+
+}
+
+
+.newhotel h1{
+    font-size: 30px;
+    color: #2B4069;
+    align-self: center;
+}  
+
+
+.togoone{
+    position: absolute;
+}
+
+
+
+.togoone img{
+    position: relative;
+    width: 150px;
+    /* right: 20px; */
+    animation: aaa;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+    
+}
+
+@keyframes aaa{
+    from{
+        left: 0;
+    } 
+
+    to{
+        left: 800px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,182 @@
+body {
+    overflow-x: hidden;
+    width: 1280px;
+    position: absolute;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+
+.bridge {
+    background-image: url(../img/index/bridge.jpg);
+    background-size: 100%;
+    border: 3px solid rgb(119, 255, 0);
+    margin-top: 50px;
+    background-repeat: no-repeat;
+}
+
+
+.bridge .bridge1::after {
+    content: "";
+    display: block;
+    padding-bottom: 45%;
+}
+
+/* .bridge h2::after{
+    content: "";
+    display: block;
+    padding-bottom: 45%;
+} */
+
+.bridge h1 {
+    /* text-align: top; */
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: -50px;
+    margin-left: 5px;
+    color: white;
+}
+
+/*----------------------------中間連結圖---------------*/
+.middle {
+    display: flex;
+    width: 1280px;
+    /* flex-shrink: 0; */
+    flex-wrap: wrap;
+
+}
+
+.middle01 {
+    width: 500px;
+    flex-shrink: 0;
+    display: flex;
+    margin-left: 100px;
+
+}
+
+.middle02 {
+    flex-shrink: 0;
+    display: flex;
+    width: 500px;
+}
+
+
+.middle03 {
+    width: 500px;
+    flex-shrink: 0;
+    display: flex;
+    margin-left: 300px
+}
+
+/* flex-shrink: 0;
+    display: flex; */
+
+
+.middle04 {
+    width: 100px;
+    flex-shrink: 0;
+    display: flex;  
+}
+
+.middle h2 {
+    /* line-height: 1; */
+    margin-top: 150px;
+    margin-left: 30px;
+    white-space: pre;
+}
+
+
+/*----------下半部(色塊跟聯合播放圖)---------------*/
+
+.blue {
+    margin-top: 200px;
+
+    height: 450px;
+    min-height: 100%;
+    width: auto;
+    background-image: url(../img/index/our.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center center; */
+    /* display: block; */
+    /* border: 3px solid rgb(119, 255, 0); */
+    position: relative;
+    /* position: fixed; */
+    left:0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+
+.blue h3{
+    margin-left: 300px;
+    /* margin-top: 30px; */
+    padding-top: 35px;
+    font-size: 25px;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
+
+}
+
+
+/*---------------輪播圖-------------------------------*/
+.out{
+    position: relative;
+    margin: 0 auto;  
+    width: 1200px;      
+}
+.out ul{
+    display: flex;
+    overflow: hidden;
+}
+
+
+
+
+
+/* background-image: url(../img/index/bridge.jpg);
+background-size: 100%;
+border: 3px solid rgb(119, 255, 0);
+margin-top: 50px;
+background-repeat: no-repeat; */
+
+/* .blue h3::after{
+    content: "";
+    display: block;
+    padding-bottom: 45%;
+} */
+
+/* .bridge h3{
+    text-align: top;
+    font-size: 50px;
+    margin-top:100px;
+    margin-bottom: -50px;
+    color: white;
+} */
+
+/* 
+}
+/* 
+.bridge .bridge1::after{
+    content: "";
+    display: block;
+    padding-bottom: 45%;
+} */
+
+/* 
+.bridge h1{
+    /* text-align: top; */
+/* font-size: 50px;
+    margin-top:100px;
+    margin-bottom: -50px;
+    color: white; */
+/* 
+
+
+
+
+----------下面是新的------
+

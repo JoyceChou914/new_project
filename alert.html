@@ -1,0 +1,71 @@
+<!------CodePen Home click 事件與事件冒泡狀況-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+    <style>
+        div.parent_block{
+        border: 1px solid red;
+        background-color: red;
+        padding: 20px;
+        }
+        div.outer_block{
+        border: 1px solid lightblue;
+        background-color: orange;
+        padding: 20px;
+        }
+        div.inner_block{
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+        }
+    </style>
+
+
+<body>
+    <div class="parent_block">
+            <div class="outer_block">
+            區塊1
+            <div class="inner_block">區塊2</div>
+            </div>
+        </div>
+
+    <script>
+
+            window.addEventListener("scroll", function(e){
+                alert("1");
+            });
+
+            // <!-----addEventListener("click",func)-可以放入事件處理器------->
+            // getElementsByClassName 對所有給定的 class 子元素，回傳類似陣列的物件。
+
+
+
+            var div_parent_block = document.getElementsByClassName("parent_block")[0];
+            div_parent_block.addEventListener("click", function(e){
+            //e.stopPropagation();//事件冒泡的部分
+            alert("1");
+            });
+
+            var div_outer_block = document.getElementsByClassName("outer_block")[0];
+            div_outer_block.addEventListener("click", function(e){
+            e.stopPropagation();
+            alert("2");
+            });
+
+            var div_inner_block = document.getElementsByClassName("inner_block")[0];
+            div_inner_block.addEventListener("click", function(e){
+            //e.stopPropagation();
+            alert("3");
+            });
+    </script>
+</body>
+</html>

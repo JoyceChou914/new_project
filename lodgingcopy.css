@@ -1,0 +1,72 @@
+
+/*全部頁面*/
+.wrapper{
+    margin: 0 auto;
+    width: 1200px;
+    /* padding: 50px; */
+}
+
+.container{
+    position: absolute;
+    /* background-image: url(''); */
+}
+
+canvas {
+    background-color: rgb(189, 142, 142);
+    background-attachment: fixed;
+} 
+
+
+/*汐止住宿------------------------*/
+
+.xizhi{
+    margin: 0 auto;
+}
+
+.master{
+    display: flex;
+    justify-content: space-around;
+}
+.master img{
+    width: 450px;
+}
+
+
+.master01{
+    flex-direction: column;
+    /* flex-wrap: ; */
+    display: flex;
+    width: 40%;
+
+
+}
+
+.master02{
+    width: 0px;
+    flex-basis: 60px;
+    flex-grow: 1;
+}
+
+
+
+
+h1{
+    margin: 50px;
+    text-align: center;
+    background-color: #f5a2db;
+    padding: 20px;
+    font-size: 20px;
+    letter-spacing: 1em;   
+    /* border-radius: 15%; */
+}
+
+
+
+p{
+    line-height: 1.5;
+}
+
+
+
+
+

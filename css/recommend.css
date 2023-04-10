@@ -1,0 +1,149 @@
+.wrapper{
+    margin: 0 auto;
+    width: 1200px;
+    font-family: 'Klee One','Noto Sans TC', sans-serif;
+}
+
+
+
+/*新增的*/
+/* .one{
+    display: flex;
+}
+ */
+
+
+
+
+.first img{
+    width:100%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.igtop{
+    width:40%;
+    display: block;
+}
+
+/* .igtop01{
+    display: inline;
+    vertical-align: middle;
+    text-align: center;
+} */
+
+.igtop01{
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 41px;
+
+}
+
+.igtop01 img{
+    display: block;
+    width:auto;
+}
+
+.threepoints{
+    /* margin-left: 450px; */
+    display: inline;
+    float: right;
+    margin-top: 10px;
+    margin-left:100px;
+    /* position: ; */
+}
+.love{
+    margin-bottom: -45px;
+}
+
+
+.love01{
+    margin-left: 195px;
+    margin-bottom: 35px;
+    top:-37px;
+    position: relative;
+}
+
+.green{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 7px 7px 20px 0px rgba(100, 98, 98, 0.7);
+    border-radius:10px;
+    margin: 30px;
+    width: calc(100%-90px);
+    /* padding-top: 30px; */
+    padding: 15px;
+}
+
+.threepoints{
+    display: inline;
+    float:right;
+    margin-top: 10px;
+    margin-left: 340px;
+}
+
+/* .txt{
+    /* margin-bottom: 50px; */
+
+
+.txt p{
+    width:230%;
+}
+
+
+
+.middle img{
+    padding-left: 11px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.oneone{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.orange{
+    display: block;
+    width:100%;
+}   
+
+.bridge1{
+    animation: bridge1 10s linear infinite;
+    /* -moz-animation-duration: 3s;
+    -moz-animation-name: slidein; */
+}
+
+/* @keyframes bridge1 {
+
+    0% {opacity: 0;}/*初始状态 透明度为0*/
+    
+    /* 40% {opacity: 0;}    /*过渡状态 透明度为0
+    
+    100% {opacity: 1;}    /*结束状态 透明度为1 */
+
+
+
+/* main {
+    width: 250px;
+    margin: 50px auto;
+}
+.my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: bounce; /* 引用動畫的 @keyframe 名稱 */
+    /* animation-duration: 2s; /* 別忘了設定持續時間 */
+
+
+  /* 更改 特定 的動畫持續時間 */
+/* .bridge1 {
+    --animate-duration: 2s;
+  } */ 
+
+
+
+
+
