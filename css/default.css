@@ -49,10 +49,10 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    font-size: 16px;
+    font-size: 15px;
     color: #557FCF;
-
 }
+
 .top  a:hover{
     color: #EA839B;
     transform: scale(1.2);

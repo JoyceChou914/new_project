@@ -6,7 +6,6 @@
 
 .lake{
     width:600px;
-    /* margin:300px; */
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -14,11 +13,21 @@
 
 }
 
+.lake img:hover{
+    transform:rotate(5deg);
+}
+
+
+
 
 .lake01{
     width:100%;
     display: block;
 }
+.lake01:hover{
+    transform:rotate(5deg);
+}
+
 
 .lake02{
     /* border: 1px solid red; */
@@ -31,10 +40,10 @@
 
 
 h1{
+    margin-bottom: 10px;
     text-align: center;
     font-size: 30px;
     color:rgb(160, 160, 236);
-
 }
 
 .middle{

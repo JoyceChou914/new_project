@@ -2,8 +2,8 @@ body {
     overflow-x: hidden;
     width: 100%;
     position: absolute;
-    font-family: 'Alkatra', cursive;
-    font-family: 'Klee One','Noto Sans TC', sans-serif;
+    font-family: 'Klee One';
+    /* ,'Noto Sans TC', sans-serif */
 
 
     /*---打字機---------------------*/
@@ -31,6 +31,8 @@ body {
     flex-wrap: wrap;
 }
  */
+
+
 
 
 
@@ -502,7 +504,15 @@ body {
 
 }
 /*-------footer------------------*/
+@media screen and (max-width:414px ) {
 
+
+
+
+
+
+
+}
 
 
 

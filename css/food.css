@@ -14,8 +14,9 @@ body{
 
 /*---------藝人介紹-------------------------------*/
 
-.top{
+.top01{
     margin: 0 auto;
+    display: flex;
 
 }
 
@@ -55,6 +56,7 @@ body{
 
 .salsa p{
     line-height: 2;
+    margin-left: 21px;
 }
 
 
