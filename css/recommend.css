@@ -145,5 +145,65 @@
 
 
 
+/*-------手機裝置-----------*/
+@media screen and (max-width:414px ) {
+    .wrapper{
+        width: auto;
+    }
 
+    .oneone{
+        width: 100vw;
+    }
+
+    .ig{
+        width: 100vw;
+    }
+
+    .green{
+        width: 80vw;
+        margin: 20px auto;
+    }
+
+    .igtop{
+        width: 80vw;
+    }
+
+    .igtop01{
+        width: 80vw;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+    }
+
+    .middle{
+        width: 80vw;
+    }
+
+    .threepoints{
+        margin-left: 190px;
+    }
+
+
+    .middle img{
+        width: 80vw;
+        padding: 0;
+    }
+
+    .love{
+        margin: 0;
+        width: 80vw;
+    }
+
+    .love01{
+        display: none;
+    }
+
+    .txt{
+        width: 80vw;
+        text-align: justify;
+    }
+
+    .txt p{
+        width: 80vw;
+    }
+}
 

@@ -352,10 +352,12 @@ body{
     .lake{
         width: 100vw;
         flex-wrap: wrap;
+        margin: 0;
     }
 
     .lakeimg{
         width: 80vw;
+        margin: 0 auto;
     }
 
     .newlake{
@@ -365,9 +367,11 @@ body{
     .dumplings{
         width: 100vw;
         flex-wrap: wrap;
+        margin: 0;
     }
     .dumplingsimg{
         width: 80vw;
+        margin: 0 auto;
     }
 
     .newdumplings{
@@ -377,26 +381,28 @@ body{
     .ridebike{
         width: 100vw;
         flex-wrap: wrap;
+        margin: 0;
     }
-
 
     .ridebikeimg{
         width: 80vw;
+        margin: 0 auto;
     }
 
     .newridebike{
         width: 100vw;
-        flex-wrap: wrap;
     }
 
 
     .effort{
         width: 100vw;
         flex-wrap: wrap;
+        margin: 0;
     }
 
     .effortimg{
         width: 80vw;
+        margin: 0 auto;
     }
 
     .neweffort{
@@ -406,15 +412,27 @@ body{
     .hotel{
         width: 100vw;
         flex-wrap: wrap;
+        margin: 0;
+        margin-top: 150px;
     }
 
     .hotelimg{
         width: 80vw;
+        margin: 0 auto;
     }
 
     .newhotel{
         width: 100vw;
-        flex-wrap: wrap;
+    }
+
+
+
+
+
+    .togoone{
+        width: 100vw;
+        margin: 0;
+        overflow: hidden;
     }
 
 

@@ -213,6 +213,39 @@ body{
 
 
 
+/*-------手機裝置-----------*/
+@media screen and (max-width:414px ) {
+    .Wrapper{
+        width: 100vw;
+    }
+
+    .left{
+        margin: 20px 0 50px;
+    }
+
+    .left p{
+        text-align: justify;
+        padding: 50px 20px 0;
+    }
+
+    .food{
+        width: 100vw;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .ice{
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+
+    
+
+
+}
+
+
+
 
 
 

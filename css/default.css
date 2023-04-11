@@ -95,7 +95,7 @@ display: flex;
     margin: 0 auto;
 }
 .shadow{
-    width:800px;
+    width:100%;
     /* border: 1px solid green; */
     position: relative;
     /* height: 200px; */
@@ -349,27 +349,22 @@ display: flex;
 
     .shadow{
         box-sizing: border-box;
-        width: 85vw;
+        width: 100vw;
     /*-----------------*/
     }
 
     .roadlight{
         width:20vw;
-        /* height: 30%; */
-        /* width: 100vh; */
+
     }
 
     .man{
         width:20vw; 
-        /* height: 30%; */
-        /* width: 100vh; */
+
     }
     .shadow .gril{
         width:30vw;
-        /* left: 0; */
-        right: -64px;
-        /* height: 30%; */
-        /* width: 100vh; */
+
     }
 
     .footer{

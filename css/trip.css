@@ -85,10 +85,13 @@ h1{
 @media screen and (max-width:414px ) {
     .Wrapper{
         width:auto;
+    /*---寬度寫死的話,在RWD會直接寫alto，才可以穩合頁面寬度---*/
+    /*-------------------------------*/
     }
 
     h1{
         width: 100vw;
+
     }
 
 
@@ -100,6 +103,8 @@ h1{
     .lake01{
         width: 80vw;
         margin-left: 40px;
+    /*-----通常可以不用寫到100Vw，可以留一點margin--------------------------*/
+
     }
 
     .lake02{
@@ -114,11 +119,12 @@ h1{
     }
 
     .middle01{
-        width: 70vw;
+        width: 50vw;
     }
-
+/*-----通常可以不用寫到100Vw，可以留一點margin--------------------------*/
     .middle02 img{
         display: none;
+        
     }
 
 
