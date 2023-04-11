@@ -343,6 +343,21 @@ body{
 
 
 
+/*-------手機裝置-----------*/
+@media screen and (max-width:414px ) {
+    .Wrapper{
+        width:100vw;
+    }
+
+    .lake{
+        width: 100vw;
+    }
+}
+
+
+
+
+
 
 
 

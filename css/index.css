@@ -46,14 +46,6 @@ body {
 }
 
 
-.middle h2{
-    position: relative;
-    font-size: 18px;
-    height: 100px;
-    z-index: -1000;
-    text-align: center;
-
-}
 
 .middle a{
     position: relative;
@@ -331,6 +323,12 @@ body {
     margin-left: 30px;
     white-space: pre;
     letter-spacing: 1em;
+
+    position: relative;
+    font-size: 18px;
+    height: 100px;
+    z-index: -1000;
+    text-align: center;
 }
 
 
@@ -403,7 +401,7 @@ body {
 
 
 .bridge{
-    background-size: 80vw;
+    background-size: 100vw;
 }
 
 .bridge h1{
@@ -414,9 +412,9 @@ body {
 
 /*-------中間頁面-------------------*/
 .middle{
-    width: 80vw;
+    width: 100vw;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
 }
 
 .middle img{
@@ -424,11 +422,8 @@ body {
 }
 
 .middle a{
-    width: 80vw;
+    width: 50vw;
 }
-
-
-
 
 .middle a::before{
 
@@ -436,15 +431,66 @@ body {
     opacity: 0;
 }
 
+.middle h2{
+    margin-top: 0;
+    height: 0;
+    line-height: 2;
+}
+
+
+
+
+
 .middle01, 
 .middle02,
 .middle03,
 .middle04{
     flex-wrap: wrap;
+    width: 100vw;
+    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
 }
 
 
-.middle03{
+.middle02 img{
+    width: 50vw;
+    margin-top: 70px;
+}
+
+
+.middle02 h2{
+    width: 50vw;
+}
+
+
+.middle03 img{
+    width: 50vw;
+    margin-top: 70px;
+}
+
+
+.middle03 h2{
+    width: 50vw;
+}
+
+
+.middle04 img{
+    width: 50vw;
+    margin-top: 70px;
+}
+
+
+.middle04 h2{
+    width: 50vw;
+}
+
+
+
+
+
+/* .middle03{
     margin-left: 50px;
 }
 
@@ -453,7 +499,7 @@ body {
 
 .middle04{
     margin-left:50px;
-}
+} */
 
 
 
@@ -481,6 +527,7 @@ body {
     font-size: .5rem;
     /* border: 1px solid blue; */
     padding: 80px 0;
+    margin-left: 40px;
     /* animation: none; */
 }
 
@@ -503,28 +550,5 @@ body {
     justify-content: left;
 
 }
-/*-------footer------------------*/
-@media screen and (max-width:414px ) {
-
-
-
-
-
-
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-

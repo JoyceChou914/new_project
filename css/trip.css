@@ -76,3 +76,76 @@ h1{
     width: 10%;
 }
 
+
+
+
+
+
+/*-------手機裝置-----------*/
+@media screen and (max-width:414px ) {
+    .Wrapper{
+        width:auto;
+    }
+
+    h1{
+        width: 100vw;
+    }
+
+
+    .lake{
+        width: 100vw;
+        text-align: center;
+    }
+
+    .lake01{
+        width: 80vw;
+        margin-left: 40px;
+    }
+
+    .lake02{
+        width: 10%;
+        top: -10px;
+        right: 100px;
+    }
+
+
+    .middle{
+        width: 100vw;
+    }
+
+    .middle01{
+        width: 70vw;
+    }
+
+    .middle02 img{
+        display: none;
+    }
+
+
+    .middle02 span{
+        display: block;
+        width: 40vw;
+    }
+
+    .middle02 p{
+        font-size: 1rem;
+        margin: 0 10px;
+    }
+
+    .traffic h2{
+        margin-top: 10px;
+    }
+
+
+    .traffic p{
+        font-size: .9rem;
+        margin-top: 10px;
+    }
+
+
+    .traffic iframe{
+        width: 100vw;
+        margin-top: 20px;
+    }
+
+}
