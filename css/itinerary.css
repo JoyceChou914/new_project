@@ -351,7 +351,74 @@ body{
 
     .lake{
         width: 100vw;
+        flex-wrap: wrap;
     }
+
+    .lakeimg{
+        width: 80vw;
+    }
+
+    .newlake{
+        width: 100vw;
+    }
+
+    .dumplings{
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+    .dumplingsimg{
+        width: 80vw;
+    }
+
+    .newdumplings{
+        width: 100vw;
+    }
+
+    .ridebike{
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+
+
+    .ridebikeimg{
+        width: 80vw;
+    }
+
+    .newridebike{
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+
+
+    .effort{
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+
+    .effortimg{
+        width: 80vw;
+    }
+
+    .neweffort{
+        width: 100vw;
+    }
+
+    .hotel{
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+
+    .hotelimg{
+        width: 80vw;
+    }
+
+    .newhotel{
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+
+
+
 }
 
 
