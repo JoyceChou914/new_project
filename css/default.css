@@ -26,7 +26,6 @@
     float: right;
     margin-right: 70px;
     width: 13%;
-
 }
 
 .top li a{
@@ -43,9 +42,11 @@
     color: #557FCF;
 }
 
-.foodtest{
-display: flex;
-}
+/* .foodtest{
+    display: flex;
+    border: 1px solid red;
+    width: 30%;
+} */
 
 
 
@@ -76,7 +77,10 @@ display: flex;
     display: block;
     width: 10%;
     float:left;
+    height: auto;
+    /* border: 1px solid red; */
 }
+
 /* 
 .ccc img{
     padding-right: 0px;
@@ -182,10 +186,9 @@ display: flex;
         font-style: normal;
         font-weight: 900;
         font-size: 18px;
-        /* border: 1px solid red; */
 
-        /* padding-right: 10px; */
-        display: block;
+        
+        /*區塊元素佔滿 display: block; */
         width:20%;
         padding-right: 5px;
 }

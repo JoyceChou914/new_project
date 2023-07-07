@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh_tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>您想要查詢哪裡</h1>
+    <select name="" id="choceLocation">
+        <option value="Changhua" >彰化</option>
+        <option value="Chiayi" selected="selected">嘉義</option>
+    </select>
+
+    <div>
+        現在溫度是:<span id="temp"></span>度
+    </div>
+
+
+
+
+
+    <script>
+        // let temp = document.querySelector("#temp");
+        // let choceLocation = document.querySelector("#choceLocation");
+        // let link = `https://api.openweathermap.org/data/2.5/weather?q=${choceLocation.value},TW&units=metric&lang=zh_tw&appid=b124477846ae9be4798ea5a717da43db`;
+
+        // fetch(link)
+        //     .then(res => res.json())
+        //     .then(json => {
+        //     // 在這裡處理回傳的天氣數據
+        //         console.log(json);
+        //         temp.textContent = json.main.temp;
+        // })
+
+        // // .catch(error => {
+        // //     // 處理錯誤
+        // //     console.error(error);
+        // // });
+
+        let temp = document.querySelector("#temp");
+        let choceLocation = document.querySelector("#choceLocation");
+
+        function fetchWeather() {
+        let link = `https://api.openweathermap.org/data/2.5/weather?q=${choceLocation.value},TW&units=metric&lang=zh_tw&appid=b124477846ae9be4798ea5a717da43db`;
+
+        fetch(link)
+            .then(res => res.json())
+            .then(json => {
+            console.log(json);
+            temp.textContent = json.main.temp;
+            })
+            .catch(error => {
+            console.error(error);
+            });
+        }
+
+        // 初始化頁面時發送一次API請求
+        fetchWeather();
+
+        // 當選擇的城市更改時，發送新的API請求
+        choceLocation.addEventListener("change", fetchWeather);
+
+
+
+
+    </script>
+</body>
+</html>
